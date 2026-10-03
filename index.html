@@ -1,10 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test Firma | Müşteri Destek Testi</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, Segoe UI, Arial, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; display: flex; flex-direction: column; }
+  header { padding: 24px 40px; border-bottom: 1px solid #1e293b; display: flex; justify-content: space-between; align-items: center; }
+  header .logo { font-weight: 700; font-size: 20px; color: #38bdf8; }
+  main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 40px 20px; }
+  h1 { font-size: 32px; margin-bottom: 12px; }
+  p { color: #94a3b8; max-width: 480px; line-height: 1.6; }
+  .badge { margin-top: 24px; padding: 8px 16px; border: 1px solid #1e293b; border-radius: 999px; font-size: 13px; color: #64748b; }
+  footer { padding: 16px; text-align: center; font-size: 12px; color: #475569; }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">Test Firma</div>
+  <div>İletişim</div>
+</header>
+<main>
+  <h1>Canlı destek testi için hazırlanmış sayfa</h1>
+  <p>Bu sayfa LiveChat entegrasyon testleri için oluşturulmuştur. Gerçek bir ürün veya hizmet tanıtmamaktadır.</p>
+  <div class="badge">Test amaçlı statik sayfa</div>
+</main>
+<footer>&copy; 2026 Test Firma — sadece test amaçlıdır</footer>
+
 <!-- Start of LiveChat (www.livechat.com) code -->
 <script>
     window.__lc = window.__lc || {};
     window.__lc.license = 19970354;
-    window.__lc.integration_name = "manual_onboarding";
+    window.__lc.integration_name = "manual_channels";
     window.__lc.product_name = "livechat";
     ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
 </script>
 <noscript><a href="https://www.livechat.com/chat-with/19970354/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
 <!-- End of LiveChat code -->
+
+</body>
+</html>
